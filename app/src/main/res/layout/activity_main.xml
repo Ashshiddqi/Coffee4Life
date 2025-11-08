@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_color">
+
+    <!-- Top Section with Coffee Icon and Brand Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/dark_teal">
+
+        <!-- Coffee Cup Icon -->
+
+        <!-- Brand Name -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="Coffee Cup Icon"
+            android:src="@drawable/ic_coffee_cup"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:letterSpacing="0.02"
+            android:text="Coffee4Life"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <!-- Bottom Section with Welcome Text -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingHorizontal="40dp"
+        android:background="@color/white">
+
+        <!-- Main Welcome Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feel yourself like\na barista!"
+            android:textColor="@color/dark_gray"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:lineHeight="36sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Subtitle Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee4Life on order."
+            android:textColor="@color/light_gray"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="60dp" />
+
+        <!-- Next Button -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_arrow_forward"
+            app:backgroundTint="@color/dark_teal"
+            app:tint="@color/white"
+            app:borderWidth="0dp"
+            app:elevation="8dp"
+            android:contentDescription="Next Button" />
+
+    </LinearLayout>
+
+</LinearLayout>

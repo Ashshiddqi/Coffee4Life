@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kopi Lebong App Colors -->
+    <color name="dark_teal">#3D4E5C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_gray">#2C2C2C</color>
+    <color name="light_gray">#9E9E9E</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="background_light">#FAFAFA</color>
+
+    <!-- Input field colors -->
+    <color name="input_background">#FAFAFA</color>
+    <color name="input_border">#E0E0E0</color>
+
+    <!-- Additional colors for Material Design compatibility -->
+    <color name="colorPrimary">@color/dark_teal</color>
+    <color name="colorPrimaryDark">#2A3A45</color>
+    <color name="colorAccent">@color/dark_teal</color>
+</resources>

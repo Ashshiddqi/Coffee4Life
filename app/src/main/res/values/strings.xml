@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coffee4Life</string>
+
+    <!-- Welcome Screen -->
+    <string name="brand_name">Kopi Lebong</string>
+    <string name="welcome_title">Feel yourself like\na barista!</string>
+    <string name="welcome_subtitle">Magic coffee on order.</string>
+
+    <!-- Login Screen -->
+    <string name="sign_in">Sign in</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="new_member">New member? </string>
+    <string name="sign_up">Sign up</string>
+
+    <!-- Sign Up Screen -->
+    <string name="create_account">Create an account here</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="terms_agreement">By signing up you agree with our Terms of Use</string>
+    <string name="already_member">Already a member? </string>
+
+    <!-- Menu Screens -->
+    <string name="welcome">Welcome!</string>
+    <string name="coffee_category">Coffee</string>
+    <string name="bread_category">Bread</string>
+    <string name="cake_category">Cake</string>
+    <string name="select_your_coffee">Select your coffee</string>
+    <string name="select_your_cake">Select your cake</string>
+    <string name="select_your_bread">Select your bread</string>
+
+    <!-- Coffee Types -->
+    <string name="americano">Americano</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="latte">Latte</string>
+    <string name="flat_white">Flat White</string>
+    <string name="raf">Raf</string>
+    <string name="espresso">Espresso</string>
+
+    <!-- Cake Types -->
+    <string name="butter_cake">Butter cake</string>
+    <string name="pound_cake">Pound cake</string>
+    <string name="sponge_cake">Sponge cake</string>
+    <string name="biscuit_cake">Biscuit cake</string>
+    <string name="chiffon_cake">Chiffon cake</string>
+    <string name="red_velvet_cake">Red velvet cake</string>
+
+    <!-- Bread Types -->
+    <string name="croissant">Croissant</string>
+    <string name="bagel">Bagel</string>
+    <string name="pretzel">Pretzel</string>
+    <string name="focaccia">Focaccia</string>
+    <string name="tortilla">Tortilla</string>
+    <string name="baguette">Baguette</string>
+
+    <!-- Messages -->
+    <string name="bread_coming_soon">Bread menu coming soon!</string>
+    <string name="cake_coming_soon">Cake menu coming soon!</string>
+    <string name="coffee_selected">%s selected! Order details coming soon.</string>
+
+    <!-- Cart Screen -->
+    <string name="my_order">My order</string>
+    <string name="total_price">Total Price</string>
+
+    <!-- Payment Dialog -->
+    <string name="order_payment">Order payment</string>
+    <string name="input_customer_name">Input nama Pelanggan</string>
+    <string name="money">Money</string>
+    <string name="change">Change</string>
+    <string name="amount">Amount</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="cart_empty">Cart is empty</string>
+    <string name="enter_customer_name">Masukkan nama pelanggan</string>
+    <string name="enter_money_amount">Masukkan jumlah uang</string>
+    <string name="insufficient_money">Uang tidak cukup</string>
+    <string name="payment_success">Pembayaran berhasil!\nKembalian: %s</string>
+    <string name="invalid_amount">Jumlah uang tidak valid</string>
+    <string name="added_to_cart">%s added to cart!</string>
+
+    <!-- Common -->
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+
+    <!-- Content Descriptions -->
+    <string name="coffee_cup_icon">Coffee Cup Icon</string>
+    <string name="next_button">Next Button</string>
+    <string name="back_button">Back Button</string>
+    <string name="login_button">Login Button</string>
+    <string name="signup_button">Sign Up Button</string>
+
+    <!-- Error Messages -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Please enter a valid email</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_fullname_required">Full name is required</string>
+    <string name="error_fullname_invalid">Please enter a valid full name</string>
+    <string name="error_mobile_required">Mobile number is required</string>
+    <string name="error_mobile_invalid">Please enter a valid mobile number</string>
+    <string name="login_successful">Login successful!</string>
+    <string name="signup_successful">Account created successfully!</string>
+    <string name="navigate_to_sign_up">Navigate to Sign Up</string>
+
+</resources>
